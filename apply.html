@@ -1,0 +1,65 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0B3154"><meta name="description" content="Apply for a YUKTECH job opening by submitting your details and resume."><meta name="robots" content="noindex"><title>Apply for a Role | YUKTECH Careers</title><link rel="stylesheet" href="style.css"><script src="script.js" defer></script></head><body><header class="site-header"><div class="container header-inner"><a class="brand" href="index.html" aria-label="YUKTECH home"><img data-cms-image="site.logo" src="./Images/YUK.png" alt="YUKTECH logo"></a><button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation" aria-controls="primaryNav" aria-expanded="false"><span></span><span></span><span></span></button><nav class="main-nav" id="primaryNav" aria-label="Main navigation">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<div class="nav-dropdown">
+<button class="nav-dropdown-toggle" type="button" aria-expanded="false" aria-haspopup="true" aria-controls="servicesDropdown">Services <span class="dropdown-chevron" aria-hidden="true"></span></button>
+<div class="nav-dropdown-menu" id="servicesDropdown">
+<div class="dropdown-heading"><span class="dropdown-kicker">OUR THREE CORE SERVICES</span><strong>How YUKTECH Helps</strong><span class="dropdown-subtitle">People, delivery, and expert guidance</span></div>
+<a href="staffing-workforce.html">IT Staffing</a><a href="it-solutions.html">IT Solutions</a><a href="it-consulting.html">IT Consulting</a><a class="dropdown-all-link" href="services.html">All Services →</a>
+</div></div>
+<a href="employers.html">For Businesses</a>
+<a href="candidates.html">Candidates</a>
+<a class="active" href="careers.html">Careers</a>
+<a class="nav-cta" href="contact.html">Contact <span aria-hidden="true">→</span></a>
+</nav></div></header><main>
+  <section class="page-hero">
+    <div class="container reveal">
+      <span class="eyebrow eyebrow-light">CAREERS</span>
+      <h1>Apply for this role.</h1>
+      <p>Share your details and resume. Our team will review your application and contact you if your profile matches the requirement.</p>
+      <div class="breadcrumbs"><a href="index.html">Home</a><span>/</span><a href="careers.html">Careers</a><span>/</span><span>Apply</span></div>
+    </div>
+  </section>
+
+  <section class="section section-light">
+    <div class="container apply-wrap">
+      <div class="contact-form-wrap reveal">
+        <div id="applyBanner" class="apply-job-banner" hidden></div>
+        <span class="eyebrow">JOB APPLICATION</span>
+        <h2>Tell us about yourself</h2>
+        <p class="form-intro">All fields marked with * are mandatory.</p>
+        <form class="contact-form" id="applyForm" action="https://formsubmit.co/info@yuktech.net" method="POST" enctype="multipart/form-data">
+          <input type="hidden" name="_subject" id="applySubject" value="New Job Application - YUKTECH">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_next" id="applyNext" value="">
+          <input type="hidden" name="Job Applied For" id="applyJobTitle" value="General application">
+          <input type="hidden" name="Job Reference" id="applyJobRef" value="">
+          <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px">
+          <div class="form-row">
+            <label for="applyName">Full Name <span class="required-mark">*</span><input id="applyName" name="Full Name" type="text" autocomplete="name" required maxlength="100"></label>
+            <label for="applyEmail">Email <span class="required-mark">*</span><input id="applyEmail" name="email" type="email" autocomplete="email" required maxlength="150"></label>
+          </div>
+          <div class="form-row">
+            <label for="applyPhone">Phone Number <span class="required-mark">*</span><input id="applyPhone" name="Phone" type="tel" autocomplete="tel" required maxlength="40"></label>
+            <label for="applyLocation">Current Location <span class="required-mark">*</span><input id="applyLocation" name="Current Location" type="text" required maxlength="100" placeholder="City, Country"></label>
+          </div>
+          <div class="form-row">
+            <label for="applyExperience">Total Experience <span class="required-mark">*</span><input id="applyExperience" name="Total Experience" type="text" required maxlength="40" placeholder="e.g. 5 years"></label>
+            <label for="applyNotice">Notice Period <span class="required-mark">*</span><input id="applyNotice" name="Notice Period" type="text" required maxlength="40" placeholder="e.g. Immediate, 30 days"></label>
+          </div>
+          <div class="form-row">
+            <label for="applyCompany">Current Company<input id="applyCompany" name="Current Company" type="text" maxlength="100"></label>
+            <label for="applyLinkedin">LinkedIn Profile<input id="applyLinkedin" name="LinkedIn" type="url" maxlength="200" placeholder="https://www.linkedin.com/in/..."></label>
+          </div>
+          <label for="applyMessage">Cover Note<textarea id="applyMessage" name="Cover Note" rows="5" maxlength="3000" placeholder="Briefly tell us why you are a good fit for this role."></textarea></label>
+          <label for="applyResume">Resume <span class="required-mark">*</span><input id="applyResume" name="attachment" type="file" accept=".pdf,.doc,.docx" required aria-describedby="resumeHelp"><small id="resumeHelp" class="file-help">Accepted formats: PDF, DOC, DOCX. Maximum file size: 5 MB.</small></label>
+          <p id="applyError" class="apply-error" role="alert" hidden></p>
+          <label class="consent" for="applyConsent"><input id="applyConsent" name="consent" type="checkbox" value="Agreed" required><span>I agree that YUKTECH may use the information and resume I provide to assess my application. See our <a href="privacy-policy.html">Privacy Policy</a>.</span></label>
+          <button class="btn btn-primary form-submit" id="applySubmit" type="submit">Submit Application <span aria-hidden="true">→</span></button>
+          <p class="form-note">YUKTECH does not ask candidates to pay a fee at any stage of hiring. Applications are delivered to info@yuktech.net through FormSubmit.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main><footer class="site-footer"><div class="container footer-main"><div class="footer-brand-area"><a class="footer-brand" href="index.html" aria-label="YUKTECH home"><img data-cms-image="site.logo" src="./Images/YUK.png" alt="YUKTECH logo" loading="lazy"></a><p data-site-text="site.footer.tagline">IT Staffing · IT Solutions · IT Consulting.</p></div><div class="footer-socials" aria-label="YUKTECH social media"><span class="footer-social-heading">Connect with us</span><a class="social-icon-link email-icon-link" href="mailto:info@yuktech.net" data-site-href="site.email" data-site-scheme="mailto:" aria-label="Email YUKTECH" title="Email YUKTECH"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 5.5h18v13H3z"/><path d="m3.5 6 8.5 7 8.5-7"/></svg></a><a class="social-icon-link linkedin-icon-link" href="https://www.linkedin.com/company/yuktech/home/" data-site-href="site.linkedin" target="_blank" rel="noopener noreferrer" aria-label="Visit YUKTECH on LinkedIn (opens in a new tab)" title="YUKTECH on LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5.2 8.4H2.1V22h3.1V8.4ZM3.65 2A1.82 1.82 0 1 0 3.7 5.64 1.82 1.82 0 0 0 3.65 2ZM22 13.9c0-4.1-2.2-6-5.1-6a4.4 4.4 0 0 0-3.9 2.15V8.4H9.9V22H13v-6.74c0-1.78.34-3.5 2.55-3.5 2.18 0 2.2 2.03 2.2 3.62V22H22v-8.1Z"/></svg></a></div></div><div class="container footer-quick-links" aria-label="Quick links"><a href="employers.html">For Businesses</a><a href="candidates.html">Candidates</a><a href="careers.html">Careers</a></div>
+<div class="container footer-bottom"><p>© <span id="currentYear">2026</span> <span data-site-text="site.company.name">YUKTECH</span>. All rights reserved.</p><p data-site-text="site.footer.motto">People × Process × Technology.</p></div></footer><button class="back-to-top" id="backToTop" type="button" aria-label="Back to top" hidden>↑</button><script src="./cms-config.js"></script><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="./assets/yuktech-cms.js" defer></script><script src="./assets/apply.js" defer></script></body></html>
